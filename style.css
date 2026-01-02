@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f4f4; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto; 
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #007BFF; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navigation {
+    text-align: center;
+    padding: 15px;
+    background-color: #444;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none; 
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    color: #007BFF; 
+}
+
+h2 {
+    color: #007BFF;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid #ddd; 
+    padding: 12px; 
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Added to ensure padding doesn't break layout */
+}
+
+form button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none; 
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3; /* Added a hover effect for better UX */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #333;
+    color: white;
+}
